@@ -81,19 +81,19 @@ if user_menu == "Overall Analysis":
         st.title(nations)
 
     nations_over_time = helper.data_over_time(df, 'region')
-    pio.renderers.default = 'iframe'
+    #pio.renderers.default = 'iframe'
     fig = px.line(nations_over_time, x='Edition', y='region')
     st.title("Participating Nations over the years")
     st.plotly_chart(fig)
 
     events_over_time = helper.data_over_time(df, 'Event')
-    pio.renderers.default = 'iframe'
+    #pio.renderers.default = 'iframe'
     fig = px.line(events_over_time, x='Edition', y='Event')
     st.title("Events over the years")
     st.plotly_chart(fig)
 
     atheletes_over_time = helper.data_over_time(df, 'Name')
-    pio.renderers.default = 'iframe'
+    #pio.renderers.default = 'iframe'
     fig = px.line(atheletes_over_time, x='Edition', y='Name')
     st.title("Atheletes over the years")
     st.plotly_chart(fig)
