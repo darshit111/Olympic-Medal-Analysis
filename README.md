@@ -7,11 +7,11 @@ The app also includes data visualizations, heatmaps, and charts for better under
 🔗 Live Demo: https://bit.ly/OlympicMedalAnalysis
 
 🚀 Features
- Search & Filter – Find specific athletes, countries, or events.
- Data Visualization – Heatmaps, bar charts, and trend plots for medal distribution.
- Athlete & Country Insights – View medal counts, event details, and competitor information.
- Machine Learning Integration – Applied ML techniques for data analysis and insights.
- Cloud Deployment – Hosted on Streamlit Cloud for easy access.
+ -> Search & Filter – Find specific athletes, countries, or events.
+ -> Data Visualization – Heatmaps, bar charts, and trend plots for medal distribution.
+ -> Athlete & Country Insights – View medal counts, event details, and competitor information.
+ -> Machine Learning Integration – Applied ML techniques for data analysis and insights.
+ -> Cloud Deployment – Hosted on Streamlit Cloud for easy access.
 
 
 📂 Dataset
